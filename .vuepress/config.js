@@ -10,7 +10,7 @@ import path from "path"
 const require = createRequire(import.meta.url)
 const { description } = require('../package.json')
 
-const base = "/";
+const base = "/website/";
 
 export default defineUserConfig ({
   bundler: webpackBundler({
